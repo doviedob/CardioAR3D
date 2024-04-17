@@ -8,6 +8,8 @@ Los requisitos necesarios se encuentran en el repositorio de [MONAI Label](https
 
 Para acceder a los servicios de computación en la nube, será necesario crear nuestra cuenta personal de AWS en su [sitio web oficial](https://aws.amazon.com/es/) y dando en la pestaña 'Inicie sesión en la consola' en la parte superior derecha. Allí podrá llenar los datos de nuevo usuario para tener acceso a la consola.
 
+Adicionalmente, consulte los precios de los servicios ofrecidos por AWS en su [sección de precios y capa gratuita](https://aws.amazon.com/es/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=categories%23desktop-app-streaming).
+
 ## 2. Aprender a usar la consola de AWS
 
 Con la finalidad de familiarizarse con el entorno de AWS y del manejo básico de la consola, puede observar los siguientes videos:
