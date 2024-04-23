@@ -49,5 +49,5 @@ pip install dicomweb-client[gcp]
 ```
 - Finalmente, arrancaremos el servidor donde se encuentra MONAI:
 ```
-monailabel start_server --app apps/radiology --studies datasets/Task02_Heart/imagesTr --conf models deepedit
+monailabel start_server --app apps/radiology --studies datasets/Task02_Heart/imagesTr --conf models segmentation
 ```
