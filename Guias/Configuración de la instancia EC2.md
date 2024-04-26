@@ -47,3 +47,12 @@ Con el conocimiento previo de los pasos anteriores, se continuará con la config
 ![Almacenamiento](https://github.com/doviedob/CardioAR3D/blob/main/Images/resumen.png)
 
 ***NOTA:*** Una vez lanzada la instancia, los parametros de creación NO podrán ser modificados. Si requerimos una configuración diferente, será necesario eliminar la instancia y crear una nueva desde cero.
+
+## 4. Regla de entrada
+
+Como último paso importante, es necesario abrir el puerto de entrada por el que nuestro computador transmitirá y recibirá la información. Esto se podrá realizar siguiente el siguiente tutorial para crear una [nueva regla de entrada](https://medium.com/@chiemelaumeh1/how-to-open-ports-inaws-ec2-server-68e576c641d6).
+
+Siguiendo los pasos anteriores, obtendremos una nueva regla que se observará de la siguiente manera y que nos permitirá enlazar el modulo de MONAI en 3D Slicer con la instancia EC2:
+
+![Regla de entrada](https://github.com/doviedob/CardioAR3D/blob/main/Images/Regla%20de%20entrada.png)
+
