@@ -9,7 +9,7 @@ Posteriormente, solo será necesario copiar la línea de comando especificada en
 ![conectarse_ssh](https://github.com/doviedob/CardioAR3D/blob/main/Images/conectar-ssh.png)
 ![cmd enlazado](https://github.com/doviedob/CardioAR3D/blob/main/Images/cmd_enlazado.png)
 
-Finalmente, al estar dentro de la instancia conectados, será necesario isntalar las librerias que serán requeridas para el correcto funcionamiento del servidor.
+Finalmente, al estar dentro de la instancia conectados, será necesario instalar las librerías que serán requeridas para el correcto funcionamiento del servidor.
 
 1. Verificar la versión de python instalada
 ```
