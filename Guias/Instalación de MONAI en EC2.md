@@ -7,6 +7,8 @@ Para acceder a la instancia mediante la ventana de comandos de windows, nos diri
 Posteriormente, solo será necesario copiar la línea de comando especificada en la conexión SSH de la consola de AWS, y luego copiar en la ventana de comandos donde nos pedirá autenticar para finalmente conectarse.
 
 ![conectarse_ssh](https://github.com/doviedob/CardioAR3D/blob/main/Images/conectar-ssh.png)
+![cmd enlazado](https://github.com/doviedob/CardioAR3D/blob/main/Images/cmd_enlazado.png)
+
 ## En una instancia de Ubuntu
 
 Para realizar esto es necesario haber configurado la instancia EC2 de la guia anterior. Nuevamente, desde la consola ejecutaremos los siguientes comandos:
