@@ -42,7 +42,7 @@ Con el conocimiento previo de los pasos anteriores, se continuará con la config
 
 ![Almacenamiento](https://github.com/doviedob/CardioAR3D/blob/main/Images/almacenamiento.png)
 
--Finalmente. la consola nos mostrará un resumen con todas las caracteristicas de la instancia para verficar que todo sea acorde a las caracteristicas deseadas. Por último, si ya estamos satisfechos con la configuración damos click en 'Lanzar instancia':
+- Finalmente. la consola nos mostrará un resumen con todas las caracteristicas de la instancia para verficar que todo sea acorde a las caracteristicas deseadas. Por último, si ya estamos satisfechos con la configuración damos click en 'Lanzar instancia':
 
 ![Almacenamiento](https://github.com/doviedob/CardioAR3D/blob/main/Images/resumen.png)
 
