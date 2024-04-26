@@ -22,5 +22,18 @@ Adicionalmente, se usarán los servicios de Elastic Cloud Compute (EC2), y el si
 
 ## 3. Lanzamiento de la instancia
 
-Con el conocimiento previo de los pasos anteriores, se continuará con la configuración de la instancia usada para este proyecto:
+Con el conocimiento previo de los pasos anteriores, se continuará con la configuración de la instancia usada para este proyecto. Inicialmente, será necesario buscar en la [consola principal de AWS](https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1) el módulo EC2 y dar click en "Lanzar instancia".
 
+- Desde allí configuraremos primero el nombre dela instancia y la imagen de OS sobre la que correra dicha instancia:
+
+![nombre e imagen base](https://github.com/doviedob/CardioAR3D/blob/main/Images/nombre%20y%20plantilla.png)
+
+- Posteriomente, requeriremos seleccionar el tipo de instancia. Para este proyecto, debido a que se entrenará un modelo de Deep Learning con la herramienta de MONAI, será necesario seleccionar algún tipo de instancia de tipo 'g' que cuenta con tarjeta gráfica dedicada, en este caso se eligió una de tipo 'g4dn.xlarge' que cuenta con una NVIDIA T4 con 16Gb de capacidad de GPU:
+
+![Tipo de instancia](https://github.com/doviedob/CardioAR3D/blob/main/Images/tipo%20de%20instancia.png)
+
+***NOTA:*** Para conocer más acerca de los tipos de instancia, dirigirse a la [página oficial de AWS](https://aws.amazon.com/es/ec2/instance-explorer/?ec2-instances-cards.sort-by=item.additionalFields.category-order&ec2-instances-cards.sort-order=desc&awsf.ec2-instances-filter-category=*all&awsf.ec2-instances-filter-processors=*all&awsf.ec2-instances-filter-accelerators=*all&awsf.ec2-instances-filter-additional-capabilities=*all&awsf.ec2-instances-filter-workload-tags=*all) que cuenta con la explicación detallada de cada una de ellas.
+
+- Con lo anterior, será necesario escoger los permisos de red, así como configurar una red privada si así se desea. En este caso, se dejó una dirección IP 0.0.0.0 para facilitar el acceso a la instancia:
+
+![Seguridad](https://github.com/doviedob/CardioAR3D/blob/main/Images/seguridad.png)
