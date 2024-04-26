@@ -46,4 +46,4 @@ Con el conocimiento previo de los pasos anteriores, se continuará con la config
 
 ![Almacenamiento](https://github.com/doviedob/CardioAR3D/blob/main/Images/resumen.png)
 
-***NOTA:**** Una vez lanzada la instancia, los parametros de creación NO podrán ser modificados. Si requerimos una configuración diferente, será necesario eliminar la instancia nueva desde cero.
+***NOTA:*** Una vez lanzada la instancia, los parametros de creación NO podrán ser modificados. Si requerimos una configuración diferente, será necesario eliminar la instancia y crear una nueva desde cero.
