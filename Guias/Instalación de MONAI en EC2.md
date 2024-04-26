@@ -1,8 +1,12 @@
 # Como instalar MONAI Label en una instancia EC2 de AWS
-##Configuración de la instancia EC2 creada
+## Configuración de la instancia EC2 creada
 Para acceder a la instancia mediante la ventana de comandos de windows, nos dirigimos mediante el explorador de archivos a la carpeta donde está descargada la llave de seguridad de la instancia que creamos anteriormente, y desde la barra de direcciones del explorador de archivos escribimos ‘cmd’ y presionamos Enter, como se muestra a continuacion:
 
 ![cmd](https://github.com/doviedob/CardioAR3D/blob/main/Images/entrar%20cmd.png)
+
+Posteriormente, solo será necesario copiar la línea de comando especificada en la conexión SSH de la consola de AWS, y luego copiar en la ventana de comandos donde nos pedirá autenticar para finalmente conectarse.
+
+![conectarse_ssh](https://github.com/doviedob/CardioAR3D/blob/main/Images/conectar-ssh.png)
 
 ## En una instancia de Ubuntu
 
