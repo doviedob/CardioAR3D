@@ -2,7 +2,7 @@
 ##Configuración de la instancia EC2 creada
 Para acceder a la instancia mediante la ventana de comandos de windows, nos dirigimos mediante el explorador de archivos a la carpeta donde está descargada la llave de seguridad de la instancia que creamos anteriormente, y desde la barra de direcciones del explorador de archivos escribimos ‘cmd’ y presionamos Enter, como se muestra a continuacion:
 
-![cmd](https://raw.github.com/doviedob/CardioAR3D/blob/main/Images/entrar%20cmd.png)
+![cmd](https://github.com/doviedob/CardioAR3D/blob/main/Images/entrar%20cmd.png)
 
 ## En una instancia de Ubuntu
 
