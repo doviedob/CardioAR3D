@@ -23,7 +23,7 @@ sudo apt update
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
 ```
-***NOTA:*** la ultima version de anacondase puede buscar en: Index of / (anaconda.com)
+***NOTA:*** Para buscar la ultima version de anaconda se puede buscar en su [repositorio oficial](https://repo.anaconda.com/archive/)
 
 4. Realizar la instalación del archivo
 ```
@@ -38,7 +38,7 @@ source .bashrc
 conda update conda
 ```
 
-## En una instancia de Ubuntu
+## Creación del entorno de MONAI Label
 
 Para realizar esto es necesario haber configurado la instancia EC2 de la guia anterior. Nuevamente, desde la consola ejecutaremos los siguientes comandos:
 
