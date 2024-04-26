@@ -9,6 +9,35 @@ Posteriormente, solo será necesario copiar la línea de comando especificada en
 ![conectarse_ssh](https://github.com/doviedob/CardioAR3D/blob/main/Images/conectar-ssh.png)
 ![cmd enlazado](https://github.com/doviedob/CardioAR3D/blob/main/Images/cmd_enlazado.png)
 
+Finalmente, al estar dentro de la instancia conectados, será necesario isntalar las librerias que serán requeridas para el correcto funcionamiento del servidor.
+
+1. Verificar la versión de python instalada
+```
+python3 --version 
+```
+2. Actualizar controladores
+```
+sudo apt update
+```
+3. Traer el archivo para instalar Anaconda3
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
+```
+***NOTA:*** la ultima version de anacondase puede buscar en: Index of / (anaconda.com)
+
+4. Realizar la instalación del archivo
+```
+bash Anaconda3-2020.07-Linux-x86_64.sh
+```
+Inicialmente, no reconocerá los comandos de anaconda, por lo tanto será necesario ejecutar la siguiente linea de código:
+```
+source .bashrc
+```
+5. Ya podremos continuar con la actualización de conda:
+```
+conda update conda
+```
+
 ## En una instancia de Ubuntu
 
 Para realizar esto es necesario haber configurado la instancia EC2 de la guia anterior. Nuevamente, desde la consola ejecutaremos los siguientes comandos:
