@@ -37,3 +37,13 @@ Con el conocimiento previo de los pasos anteriores, se continuará con la config
 - Con lo anterior, será necesario escoger los permisos de red, así como configurar una red privada si así se desea. En este caso, se dejó una dirección IP 0.0.0.0 para facilitar el acceso a la instancia:
 
 ![Seguridad](https://github.com/doviedob/CardioAR3D/blob/main/Images/seguridad.png)
+
+- Como última configuración, será necesario escoger el almacenamiento en donde se alojaran todos los datos que se carguen en la instancia. Para este caso, se eligieron 50Gb de almacenamiento, pero esto variará según la cantidad de datos con las que se cuente:
+
+![Almacenamiento](https://github.com/doviedob/CardioAR3D/blob/main/Images/almacenamiento.png)
+
+-Finalmente. la consola nos mostrará un resumen con todas las caracteristicas de la instancia para verficar que todo sea acorde a las caracteristicas deseadas. Por último, si ya estamos satisfechos con la configuración damos click en 'Lanzar instancia':
+
+![Almacenamiento](https://github.com/doviedob/CardioAR3D/blob/main/Images/resumen.png)
+
+***NOTA:**** Una vez lanzada la instancia, los parametros de creación NO podrán ser modificados. Si requerimos una configuración diferente, será necesario eliminar la instancia nueva desde cero.
