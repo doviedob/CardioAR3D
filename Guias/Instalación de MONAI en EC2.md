@@ -90,3 +90,5 @@ pip install dicomweb-client[gcp]
 ```
 monailabel start_server --app apps/radiology --studies datasets/Task02_Heart/imagesTr --conf models segmentation
 ```
+
+Con las instrucciones anteriores, podremos verificar si el servidor de MONAI Label está corriendo correctamnente buscando en el navegador la dirección IP pública de la instancia seguidos del puerto de entrada. Se observará lo siguiente:
