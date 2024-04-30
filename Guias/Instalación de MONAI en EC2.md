@@ -94,7 +94,7 @@ python -c "import torch; print(torch.__version__)"
 Y adicionalmente podemos verificar que PyTorch está usando la GPU con las siguientes intrucciones:
 1. Abre la terminal de Ubuntu.
 2. Abre el intérprete de Python escribiendo python en la terminal.
-3. Importa PyTorch escribiendo import torch.
+3. Importa PyTorch escribiendo *'import torch'*.
 4. Verifica si hay una GPU disponible ejecutando el siguiente código:
 ```
 if torch.cuda.is_available():
