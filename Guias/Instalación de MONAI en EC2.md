@@ -1,5 +1,5 @@
 # Como instalar MONAI Label en una instancia EC2 de AWS
-## Configuración de la instancia EC2 creada
+## 1) Configuración de la instancia EC2 creada
 Para acceder a la instancia mediante la ventana de comandos de windows, nos dirigimos mediante el explorador de archivos a la carpeta donde está descargada la llave de seguridad de la instancia que creamos anteriormente, y desde la barra de direcciones del explorador de archivos escribimos ‘cmd’ y presionamos Enter, como se muestra a continuacion:
 
 ![cmd](https://github.com/doviedob/CardioAR3D/blob/main/Images/entrar%20cmd.png)
@@ -37,8 +37,33 @@ source .bashrc
 ```
 conda update conda
 ```
+## 2) Instalación de drivers CUDA y PyTorch
+En este punto, ya la instancia EC2 tendrá casi todo lo necesario para ejecutar MONAi Label, el paso a seguir es instalar PyTorch y los drivers necesarios de NVIDIA para que pueda ser aprovechada la capacidad de GPU de la instancia.
 
-## Creación del entorno de MONAI Label
+Para lo anterior, será necesario revisar que version de PyTorch es compatible con el driver CUDA actual. Para este caso, fue necesario instalar CUDA en su versión 12.1 que era compatbile con la versión de PyTorch que se encontraba disponible en su [web oficial](https://pytorch.org/get-started/locally/) en ese momento.
+
+Con una simple busqueda en Google se encontrará la web oficial de NVIDIA donde estarán las diferentes opciones de instalación, como en este caso se empleo una instancia basada en Linux, se seleccionan las opciones según los requerimientos:
+
+![NVIDIA](https://github.com/doviedob/CardioAR3D/blob/main/Images/CUDA%20instalation.png)
+
+De esta manera, los comandos que arroja para la instalación son:
+```
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
+sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
+wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda-repo-ubuntu2204-12-1-local_12.1.0-530.30.02-1_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu2204-12-1-local_12.1.0-530.30.02-1_amd64.deb
+sudo cp /var/cuda-repo-ubuntu2204-12-1-local/cuda-*-keyring.gpg /usr/share/keyrings/
+sudo apt-get update
+sudo apt-get -y install cuda
+```
+Posteriormente, despues de realizar la instalación también hará falta instalar el kit d de herramientas de CUDA que se obtiene mediante la siguiente linea de comandos:
+```
+sudo apt install nvidia-cuda-toolkit
+```
+
+A continuación, en el paso 3 se explica en que punto será necesario instalar las librerias de PyTorch.
+
+## 3) Creación del entorno de MONAI Label
 
 Para realizar esto es necesario haber configurado la instancia EC2 de la guia anterior. Nuevamente, desde la consola ejecutaremos los siguientes comandos:
 
@@ -57,6 +82,10 @@ conda activate monailabel-env
 - Instalaremos el controlador de ‘gcc’ que necesitaremos para los pasos siguientes:
 ```
 sudo apt-get install gcc
+```
+- Aquí es donde serán instalados los controladores de PyTorch descritos en el paso 2:
+```
+pip3 install torch torchvision torchaudio
 ```
 - Instalamos MONAI Label
 ```
