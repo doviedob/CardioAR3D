@@ -87,6 +87,24 @@ sudo apt-get install gcc
 ```
 pip3 install torch torchvision torchaudio
 ```
+***NOTA:*** para verficar que los drivers de CUDA y Pytorch quedaron correctamente instalados podemos ejecutar la siguiente linea de comando:
+```
+python -c "import torch; print(torch.__version__)"
+```
+Y adicionalmente podemos verificar que PyTorch está usando la GPU con las siguientes intrucciones:
+1. Abre la terminal de Ubuntu.
+2. Abre el intérprete de Python escribiendo python en la terminal.
+3. Importa PyTorch escribiendo import torch.
+4. Verifica si hay una GPU disponible ejecutando el siguiente código:
+```
+if torch.cuda.is_available():
+    print("PyTorch está utilizando la GPU:")
+    print(torch.cuda.get_device_name(0))
+else:
+    print("PyTorch no está utilizando la GPU.")
+```
+Esto imprimirá "PyTorch está utilizando la GPU:" y el nombre de la GPU. De lo contrario, imprimirá "PyTorch no está utilizando la GPU.". Para salir de esta verificación presionaremos la combinacion CTRL+D.
+
 - Instalamos MONAI Label
 ```
 pip install monailabel
