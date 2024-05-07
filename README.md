@@ -1,12 +1,19 @@
 # CardioAR3D
 Academic practice project developed for a 3D reconstruction process in pediatric patients with congenital heart disease.
 
+### Table of Contents
+- [Problematic](#problematic)
+- [Main objective](#main-objective)
+- [Specific objectives](#specific-objectives)
+- [Workflow](#workflow)
+- [Expected benefits](#exoected-benefits)
+
 ## Problematic
 
 - Prior to invasive procedures in interventional cardiology, it is difficult to understand the complex 3D anatomy of the heart from 2D images.
 - Need for better visualization and diagnostic tools for the treatment of aortic coarctation.
 
-## Main objetive
+## Main objective
 
 - To develop a protocol for segmentation and visualization of 3D computed tomography images for diagnostic support of a congenital heart disease of interest to the CardioVID clinic.
 
