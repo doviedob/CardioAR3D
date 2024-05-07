@@ -6,7 +6,7 @@ Academic practice project developed for a 3D reconstruction process in pediatric
 - [Main objective](#main-objective)
 - [Specific objectives](#specific-objectives)
 - [Workflow](#workflow)
-- [Expected benefits](#exoected-benefits)
+- [Expected benefits](#expected-benefits)
 
 ## Problematic
 
