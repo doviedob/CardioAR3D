@@ -1,7 +1,7 @@
 # CardioAR3D
 ![facultad de ingenieria](https://github.com/doviedob/CardioAR3D/blob/main/Images/facultad%20de%20ingenieria.png)
 
-Academic practice project from Universidad de Antioquia for developed for a 3D reconstruction process in pediatric patients with congenital heart disease.
+Academic practice project from Universidad de Antioquia for developed a 3D reconstruction process in pediatric patients with congenital heart disease.
 
 
 ### Table of Contents
