@@ -1,0 +1,41 @@
+{
+  "rank": 0,
+  "current_epoch": 200,
+  "current_iteration": 3200,
+  "total_epochs": 200,
+  "total_iterations": 16,
+  "epoch": 200,
+  "start_ts": 1721486345,
+  "total_time": "0:23:40",
+  "best_metric": 0.1589193046092987,
+  "train": {
+    "metrics": {
+      "train_mean_dice": 0.039253510534763336,
+      "train_aorta_mean_dice": 0.0,
+      "train_miocardium_mean_dice": 0.0,
+      "train_left_atrium_mean_dice": 0.12500214576721191,
+      "train_left_ventricle_mean_dice": 0.2739797830581665,
+      "train_right_atrium_mean_dice": 0.09037109464406967,
+      "train_right_ventricle_mean_dice": 0.029351690784096718,
+      "train_pulmonar_artery_mean_dice": 0.0
+    },
+    "key_metric_name": "train_mean_dice",
+    "best_metric": 0.1550222933292389,
+    "best_metric_epoch": 175
+  },
+  "eval": {
+    "metrics": {
+      "val_mean_dice": 0.1589193046092987,
+      "val_aorta_mean_dice": 0.0,
+      "val_miocardium_mean_dice": 0.0,
+      "val_left_atrium_mean_dice": 0.203207865357399,
+      "val_left_ventricle_mean_dice": 0.3960089683532715,
+      "val_right_atrium_mean_dice": 0.2678680419921875,
+      "val_right_ventricle_mean_dice": 0.24535028636455536,
+      "val_pulmonar_artery_mean_dice": 0.0
+    },
+    "key_metric_name": "val_mean_dice",
+    "best_metric": 0.1589193046092987,
+    "best_metric_epoch": 200
+  }
+}
