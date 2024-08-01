@@ -1,5 +1,6 @@
 # CardioAR3D
 ![facultad de ingenieria](https://github.com/doviedob/CardioAR3D/blob/main/Images/facultad%20de%20ingenieria.png)
+![CardioVID](https://github.com/doviedob/CardioAR3D/blob/1c0741bccea0d52682b569b8c40b8656d9dd0d7c/Images/ClinicaCardioVID.png)
 
 Internship project from Universidad de Antioquia for developed a 3D reconstruction process in pediatric patients with congenital heart disease.
 
