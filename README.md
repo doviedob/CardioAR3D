@@ -10,7 +10,7 @@ Internship project from Universidad de Antioquia for developed a 3D reconstructi
 - [Main objective](#main-objective)
 - [Specific objectives](#specific-objectives)
 - [Workflow](#workflow)
-- [Requierements](#requierements)
+- [Requirements](#requirements)
 - [Results](#results)
 - [Expected benefits](#expected-benefits)
 
