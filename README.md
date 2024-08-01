@@ -38,6 +38,10 @@ The next image explain how there was the wrokflow for develop the project.
 
 - AWS Account
 - EC2 instances with GPU. See the differents instances in [AWS page](https://docs.aws.amazon.com/dlami/latest/devguide/gpu.html)
+- Conda
+- 3D Slicer version 5.0 or later.
+- 3D Slicer MONAI Label Plugin. (install step [here](https://docs.monai.io/projects/label/en/latest/quickstart.html#install-monai-label-plugin-in-3d-slicer))
+- python 3.9
 - Dataset
 - Stable internet connection
 
