@@ -43,7 +43,7 @@ The next image explain how there was the wrokflow for develop the project.
 
 
 
-https://github.com/user-attachments/assets/7f4c53ff-a2e6-4614-8735-7d797bbaf27c
+https://github.com/user-attachments/assets/20eacfd9-8d51-4657-ab15-105aa07aeb42
 
 
 
