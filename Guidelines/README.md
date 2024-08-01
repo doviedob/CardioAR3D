@@ -2,7 +2,11 @@
 
 For start a MONAI Label server follow this instructions:
 
-(video)
+
+https://github.com/user-attachments/assets/48ac0284-734a-4029-b852-05e94460a6e0
+
+
+
 
 The following commands in the videos was:
 
