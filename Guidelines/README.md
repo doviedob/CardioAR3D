@@ -1,4 +1,4 @@
-# INICIAR SERVIDOR DE MONAI LABEL
+# START MONAI LABEL SERVER
 
 For start a MONAI Label server follow this instructions:
 
