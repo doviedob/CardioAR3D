@@ -1,3 +1,15 @@
+# TRAIN MODEL
+
+The model was trained for seven segments:
+
+1. Aorta
+2. Miocardium
+3. LA
+4. LV
+5. RA
+6. RV
+7. Pulmonar artery
+
 Among the results found, the first data to be analyzed were the different training sessions to which the model was subjected, varying the number of epochs in each training session, in order to find a value of difference between the training Dice and adequate validation. 
 
 The percentage difference between the "Final Train Mean Dice" and the "Final Val Mean Dice". This will help to quantify possible over-adjustment in each phase of training.
