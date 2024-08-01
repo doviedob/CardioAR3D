@@ -10,6 +10,8 @@ Internship project from Universidad de Antioquia for developed a 3D reconstructi
 - [Main objective](#main-objective)
 - [Specific objectives](#specific-objectives)
 - [Workflow](#workflow)
+- [Requierements](#requierements)
+- [Results](#results)
 - [Expected benefits](#expected-benefits)
 
 ## Problematic
@@ -34,10 +36,10 @@ The next image explain how there was the wrokflow for develop the project.
 
 ## Requirements
 
-- A
-- B
-- C
-- D
+- AWS Account
+- EC2 instances with GPU. See the differents instances in [AWS page](https://docs.aws.amazon.com/dlami/latest/devguide/gpu.html)
+- Dataset
+- Stable internet connection
 
 ## Results
 
