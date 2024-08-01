@@ -29,7 +29,7 @@ Internship project from Universidad de Antioquia for developed a 3D reconstructi
 ## Workflow
 
 The next image explain how there was the wrokflow for develop the project.
-![flujo de trabajo](https://github.com/doviedob/CardioAR3D/blob/main/Images/Flujo%20practicas.png)
+![flujo de trabajo](https://github.com/doviedob/CardioAR3D/blob/294b87ec044c39f94411f67d43ca546e443fc968/Images/Workflow.png)
 
 ## Expected benefits
 
