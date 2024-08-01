@@ -1,6 +1,6 @@
 # TRAIN MODEL
 
-The model was trained for seven segments:
+The model was trained from scratch for seven segments following the instruction from [MONAI Label](https://www.youtube.com/watch?v=3HTh2dqZqew):
 
 1. Aorta
 2. Miocardium
