@@ -2,6 +2,9 @@
 
 This Python script provides a graphical user interface (GUI) for connecting to a remote server via SSH and managing a MONAI Label environment. It simplifies the process of activating a conda environment and starting a MONAI Label server on an EC2 instance. The application allows users to input the server's public IPv4 address, select a PEM file for authentication, and execute commands to set up and run MONAI Label.
 
+![image](https://github.com/user-attachments/assets/edbd40f3-5b34-463c-ac81-a7b8b59b67d3)
+
+
 ## Key Features:
 - Easy-to-use GUI for SSH connection and command execution
 - Automatic conversion of IPv4 to EC2 hostname
