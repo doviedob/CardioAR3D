@@ -1,6 +1,6 @@
 # START MONAI LABEL SERVER
 
-## Manual way
+## 1. Manual mode
 
 For start a MONAI Label server follow this instructions:
 
@@ -19,7 +19,7 @@ Then:
 ```
 monailabel start_server --app apps/radiology --studies datasets/Task02_Heart/imagesTr --conf models segmentation_Heart
 ```
-## Using GUI interface
+## 2. Using GUI interface
 
 You can download the GUI developed to establish the SSH connection and start MONAI Label server by entering the public EC2 IPv4. For more details, follow the instructions below:
 
