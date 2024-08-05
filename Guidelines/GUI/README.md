@@ -4,7 +4,20 @@ This Python script provides a graphical user interface (GUI) for connecting to a
 
 ![image](https://github.com/user-attachments/assets/edbd40f3-5b34-463c-ac81-a7b8b59b67d3)
 
+***NOTE:*** You can create a .exe running this commands:
 
+```
+pip install pyinstaller
+```
+If you want create a .spec file, follow this command:
+```
+pyinstaller --name=MyApp --onefile --windowed main.py
+
+```
+Then, create the .exe file
+```
+pyinstaller MyApp.spec
+```
 ## Key Features:
 - Easy-to-use GUI for SSH connection and command execution
 - Automatic conversion of IPv4 to EC2 hostname
