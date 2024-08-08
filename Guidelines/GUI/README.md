@@ -9,15 +9,16 @@ This Python script provides a graphical user interface (GUI) for connecting to a
 ```
 pip install pyinstaller
 ```
+
 If you want create a .spec file, follow this command:
 ```
-pyinstaller --name=MyApp --onefile --windowed main.py
-
+python -m PyInstaller --onefile -w main.py
 ```
 Then, create the .exe file
 ```
-pyinstaller MyApp.spec
+python -m PyInstaller main.spec
 ```
+Found the .exe on te folder ***dist***
 ## Key Features:
 - Easy-to-use GUI for SSH connection and command execution
 - Automatic conversion of IPv4 to EC2 hostname
