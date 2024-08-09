@@ -21,7 +21,7 @@ monailabel start_server --app apps/radiology --studies datasets/Task02_Heart/ima
 ```
 ## 2. Using GUI interface
 
-You can download the [GUI](https://github.com/doviedob/CardioAR3D/tree/93e9a8f3a2c47617000d0fd41ee27f5504a73650/Guidelines/GUI) developed to establish the SSH connection and start MONAI Label server by entering the public EC2 IPv4. For more details, follow the instructions below:
+You can download the [GUI](https://github.com/doviedob/CardioAR3D/tree/70c2950d626afa25045710c647354fac22cd0fc5/Guidelines/GUI) developed to establish the SSH connection and start MONAI Label server by entering the public IPv4 from EC2 instance. For more details, follow the instructions below:
 
 https://github.com/user-attachments/assets/bfdc3d36-2d68-4106-85f8-6e1e0b088055
 
