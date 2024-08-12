@@ -40,6 +40,7 @@ Among the results found, the first data to be analyzed were the different traini
 
 The percentage difference between the "Final Train Mean Dice" and the "Final Val Mean Dice". This will help to quantify possible over-adjustment in each phase of training.
 
+The [stats](https://github.com/doviedob/CardioAR3D/tree/40111595c041a0acef9993db7efbe8b76ade23d6/Train/Stats) resume was present in the table below:
 
 | Epochs | Training Time | Best Val Epoch | Best Val Mean Dice | Final Train Mean Dice | Final Val Mean Dice | Train-Val Difference (%) |
 |:------:|:---------:|:----:|:----------------:|:------:|:------:|:------:|
