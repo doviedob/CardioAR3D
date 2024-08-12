@@ -18,7 +18,23 @@ The model was trained from scratch for seven segments following the instruction 
 6. RV
 7. Pulmonar artery
 
-### Proccess
+## Training configuration
+
+The training as performed with the following:
+
+* GPU: At least 32GB of GPU memory
+* Actual Model Input: 96 x 96 x 96
+* AMP: True
+* Optimizer: Adam
+* Learning Rate: 2e-4
+### Memory Consumption
+* Dataset Manager: CacheDataset
+* Data Size: 20 samples
+* Cache Rate: 1.0
+* Single GPU - System RAM Usage: 5.8G
+
+
+## Proccess
 
 Among the results found, the first data to be analyzed were the different training sessions to which the model was subjected, varying the number of epochs in each training session, in order to find a value of difference between the training Dice and adequate validation. 
 
