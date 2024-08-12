@@ -73,6 +73,8 @@ The model's performance was assessed using a dice score. The mean dice score ach
 
 ### Validation Mean Dice
 ![image](https://github.com/user-attachments/assets/34542050-5e18-43c6-87cb-1b33e55206e9)
+![image](https://github.com/user-attachments/assets/c2680a19-d9de-4da8-8fbe-011fbc2e68a9)
+
 
 ## References
 
