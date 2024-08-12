@@ -66,13 +66,13 @@ For this reason, it was decided to choose the model trained on **800 epochs** as
 The model's performance was assessed using a dice score. The mean dice score achieved by this model is 0.66.
 
 ### Training Mean Dice
-![image](https://github.com/user-attachments/assets/d513c11d-6fe2-44b6-a05d-9c3f00530be2)
+![image](https://github.com/user-attachments/assets/f470b4c9-c42b-42c4-92f7-b4b4fe1be669)
 
 ### Training Loss
-![image](https://github.com/user-attachments/assets/33ef1a3b-6479-4662-85e7-d16c5f151d1d)
+![image](https://github.com/user-attachments/assets/7eb8d0be-6b4b-4957-bf57-a1152f8e1ead)
 
 ### Validation Mean Dice
-![image](https://github.com/user-attachments/assets/34542050-5e18-43c6-87cb-1b33e55206e9)
+![image](https://github.com/user-attachments/assets/38813d3d-bf13-4832-a47d-7127385462a9)
 ![image](https://github.com/user-attachments/assets/c2680a19-d9de-4da8-8fbe-011fbc2e68a9)
 
 
