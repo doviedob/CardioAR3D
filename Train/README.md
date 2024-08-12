@@ -36,13 +36,13 @@ The increase in percentage difference suggests that the overfitting is more pron
 
 The model's performance was assessed using a dice score. The mean dice score achieved by this model is 0.66.
 
-Training Mean Dice
+### Training Mean Dice
 ![image](https://github.com/user-attachments/assets/d513c11d-6fe2-44b6-a05d-9c3f00530be2)
 
-Training Loss
+### Training Loss
 ![image](https://github.com/user-attachments/assets/33ef1a3b-6479-4662-85e7-d16c5f151d1d)
 
-Validation Mean Dice
+### Validation Mean Dice
 ![image](https://github.com/user-attachments/assets/34542050-5e18-43c6-87cb-1b33e55206e9)
 
 
