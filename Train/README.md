@@ -1,7 +1,15 @@
 # TRAIN MODEL
 
-The model was trained from scratch for seven segments following the instruction from [MONAI Label](https://www.youtube.com/watch?v=3HTh2dqZqew):
+The model was trained from scratch for seven segments following the instruction from [MONAI Label tutorial](https://www.youtube.com/watch?v=3HTh2dqZqew)
 
+### Input
+
+1 channel:
+1. CT
+
+### Output
+
+7 channels:
 1. Aorta
 2. Miocardium
 3. LA
@@ -9,6 +17,8 @@ The model was trained from scratch for seven segments following the instruction 
 5. RA
 6. RV
 7. Pulmonar artery
+
+### Proccess
 
 Among the results found, the first data to be analyzed were the different training sessions to which the model was subjected, varying the number of epochs in each training session, in order to find a value of difference between the training Dice and adequate validation. 
 
@@ -32,6 +42,8 @@ From 500 epochs onwards, positive percentages begin to be observed, indicating t
 
 The increase in percentage difference suggests that the overfitting is more pronounced as training progresses. At 1200 epochs, the training performance is 34.82% better than the validation performance, which is a significant difference.
 
+For this reason, it was decided to choose the model trained on **800 epochs** as the most optimal among the experiments performed.
+
 ## Performance
 
 The model's performance was assessed using a dice score. The mean dice score achieved by this model is 0.66.
@@ -45,4 +57,10 @@ The model's performance was assessed using a dice score. The mean dice score ach
 ### Validation Mean Dice
 ![image](https://github.com/user-attachments/assets/34542050-5e18-43c6-87cb-1b33e55206e9)
 
+## References
 
+aa
+
+## License
+
+bb
