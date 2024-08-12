@@ -31,3 +31,18 @@ From 500 epochs onwards, positive percentages begin to be observed, indicating t
 - At 1200 epochs: 34.82% difference
 
 The increase in percentage difference suggests that the overfitting is more pronounced as training progresses. At 1200 epochs, the training performance is 34.82% better than the validation performance, which is a significant difference.
+
+## Performance
+
+The model's performance was assessed using a dice score. The mean dice score achieved by this model is 0.66.
+
+Training Mean Dice
+![image](https://github.com/user-attachments/assets/d513c11d-6fe2-44b6-a05d-9c3f00530be2)
+
+Training Loss
+![image](https://github.com/user-attachments/assets/33ef1a3b-6479-4662-85e7-d16c5f151d1d)
+
+Validation Mean Dice
+![image](https://github.com/user-attachments/assets/34542050-5e18-43c6-87cb-1b33e55206e9)
+
+
