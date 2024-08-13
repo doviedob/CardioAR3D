@@ -1,6 +1,10 @@
 # TRAIN MODEL
 
+### Model description
 The model was trained from scratch for seven segments following the instruction from [MONAI Label tutorial](https://www.youtube.com/watch?v=3HTh2dqZqew)
+
+### Data
+The data was provided from internar using only
 
 ### Input
 
@@ -17,22 +21,6 @@ The model was trained from scratch for seven segments following the instruction 
 5. RA
 6. RV
 7. Pulmonar artery
-
-## Training configuration
-
-The training as performed with the following:
-
-* GPU: At least 32GB of GPU memory
-* Actual Model Input: 96 x 96 x 96
-* AMP: True
-* Optimizer: Adam
-* Learning Rate: 2e-4
-### Memory Consumption
-* Dataset Manager: CacheDataset
-* Data Size: 20 samples
-* Cache Rate: 1.0
-* Single GPU - System RAM Usage: 5.8G
-
 
 ## Proccess
 
