@@ -59,7 +59,7 @@ pip install tensorboard
 ```
 python -m tensorboard.main --logdir=/home/ubuntu/apps/radiology/model/[YOUR_MODEL_NAME]/[YOUR_TRAIN_NUMBER]/[YOUR_EVENT_FOLDER] --port=8000 --bind_all
 ```
-Then, go to ***http://[PUBLIC IPV4_EC2]:8000***
+Then, go to ***http://[PUBLIC_IPV4_EC2]:8000***
 
 ### Training Mean Dice
 ![Train_Mean_Dice_Tensorboard](https://github.com/user-attachments/assets/5970fdb3-b52e-4c37-a4d0-7d5f6873a073)
