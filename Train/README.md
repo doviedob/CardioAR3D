@@ -54,13 +54,16 @@ For this reason, it was decided to choose the model trained on **800 epochs** as
 The model's performance was assessed using a dice score. The mean dice score achieved by this model is 0.66.
 
 ### Training Mean Dice
-![image](https://github.com/user-attachments/assets/f470b4c9-c42b-42c4-92f7-b4b4fe1be669)
+![Train_Mean_Dice_Tensorboard](https://github.com/user-attachments/assets/5970fdb3-b52e-4c37-a4d0-7d5f6873a073)
+
 
 ### Training Loss
-![image](https://github.com/user-attachments/assets/7eb8d0be-6b4b-4957-bf57-a1152f8e1ead)
+![Train_Loss_Tensorboard](https://github.com/user-attachments/assets/023f53c1-1058-48c6-ab08-e9ad17a801f1)
+
 
 ### Validation Mean Dice
-![image](https://github.com/user-attachments/assets/38813d3d-bf13-4832-a47d-7127385462a9)
+![Val_Mean_Dice_Tensorboard](https://github.com/user-attachments/assets/68b11743-834c-4baa-9244-d53098ca3e83)
+In adittion, added a graphich for each out channel:
 ![image](https://github.com/user-attachments/assets/c2680a19-d9de-4da8-8fbe-011fbc2e68a9)
 
 
