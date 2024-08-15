@@ -41,9 +41,18 @@ The model is trained with 104 classes in single instance, for predicting 104 str
 For inference pipeline, please refer to the following section for benchmarking results. Normally, a CT scans with 300 slices will take about 27G memory, if your CT is larger, please prepare larger GPU memory or use CPU for inference.
 
 ## Performance
+**1.0 mm performance**
+### Training Mean Dice
+![Train_Mean_Dice_Tensorboard](https://github.com/user-attachments/assets/5970fdb3-b52e-4c37-a4d0-7d5f6873a073)
 
-#### TensorRT speedup
-This bundle supports acceleration with TensorRT. The table below displays the speedup ratios observed on an A100 80G GPU.
+
+### Training Loss
+![Train_Loss_Tensorboard](https://github.com/user-attachments/assets/023f53c1-1058-48c6-ab08-e9ad17a801f1)
+
+
+### Validation Mean Dice
+![Val_Mean_Dice_Tensorboard](https://github.com/user-attachments/assets/68b11743-834c-4baa-9244-d53098ca3e83)
+
 
 
 ## MONAI Bundle Commands
