@@ -51,7 +51,15 @@ For this reason, it was decided to choose the model trained on **800 epochs** as
 
 ## Performance
 
-The model's performance was assessed using a dice score. The mean dice score achieved by this model is 0.66.
+The model's performance was assessed using a dice score. The mean dice score achieved by this model is 0.66. The metrics was obtanied using Tensorboard using the next commands:
+
+```
+pip install tensorboard
+```
+```
+python -m tensorboard.main --logdir=/home/ubuntu/apps/radiology/model/[YOUR_MODEL_NAME]/[YOUR_TRAIN_NUMBER]/[YOUR_EVENT_FOLDER] --port=8000 --bind_all
+```
+Then, go to ***http://[PUBLIC IPV4_EC2]:8000***
 
 ### Training Mean Dice
 ![Train_Mean_Dice_Tensorboard](https://github.com/user-attachments/assets/5970fdb3-b52e-4c37-a4d0-7d5f6873a073)
@@ -63,9 +71,6 @@ The model's performance was assessed using a dice score. The mean dice score ach
 
 ### Validation Mean Dice
 ![Val_Mean_Dice_Tensorboard](https://github.com/user-attachments/assets/68b11743-834c-4baa-9244-d53098ca3e83)
-In adittion, added a graphich for each out channel:
-![image](https://github.com/user-attachments/assets/5d0050b9-08a6-4546-a603-af2100b358bb)
-
 
 
 ## References
