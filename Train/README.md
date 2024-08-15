@@ -64,7 +64,8 @@ The model's performance was assessed using a dice score. The mean dice score ach
 ### Validation Mean Dice
 ![Val_Mean_Dice_Tensorboard](https://github.com/user-attachments/assets/68b11743-834c-4baa-9244-d53098ca3e83)
 In adittion, added a graphich for each out channel:
-![image](https://github.com/user-attachments/assets/c2680a19-d9de-4da8-8fbe-011fbc2e68a9)
+![image](https://github.com/user-attachments/assets/5d0050b9-08a6-4546-a603-af2100b358bb)
+
 
 
 ## References
