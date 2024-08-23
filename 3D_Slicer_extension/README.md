@@ -30,7 +30,7 @@ SimplifiedMONAILabel is a streamlined extension for 3D Slicer that integrates MO
 
 ## Requirements
 
-- 3D Slicer (version 5.4 or higher)
+- 3D Slicer (version 5.0 or higher)
 - Active internet connection for remote server functionality
 - EC2 instances from AWS with MONAI Label installed
 
@@ -47,7 +47,7 @@ Contributions to SimplifiedMONAILabel are welcome! Please refer to the CONTRIBUT
 
 ## License
 
-This project is licensed under the [insert your chosen license here, e.g., MIT License] - see the LICENSE.md file for details.
+This project is licensed under the Apache 2.0 License - see the LICENSE.md file for details.
 
 ## Acknowledgments
 
@@ -56,4 +56,4 @@ This project is licensed under the [insert your chosen license here, e.g., MIT L
 
 ## Contact
 
-For questions or support, please open an issue in this repository or contact [your contact information or preferred method of contact].
+For questions or support, please open an issue in this repository.
