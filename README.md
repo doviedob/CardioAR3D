@@ -64,3 +64,7 @@ Additionally, two inference results can be seen below:
 - Better understanding of the anatomy of each individual's heart.
 - More accurate procedure planning.
 - Better outcomes for patients who have undergone heart surgery.
+
+## Document
+
+The complete formal document of the development of this academic internship project is available in the public repository of the University of Antioquia.
