@@ -52,7 +52,7 @@ The next image explain how there was the wrokflow for develop the project.
 
 https://github.com/user-attachments/assets/20eacfd9-8d51-4657-ab15-105aa07aeb42
 
-<img src="https://github.com/user-attachments/assets/ca0957dc-20a2-4419-92b5-7bfdff1e7293" width="500" height="400" style="float: left;"/> <img src="https://github.com/user-attachments/assets/383b5e8f-a407-4dce-b55d-817a5d2fa881" width="500" height="400" align="right"/>
+<img src="https://github.com/user-attachments/assets/ca0957dc-20a2-4419-92b5-7bfdff1e7293" width="300" height="200" style="float: left;"/> <img src="https://github.com/user-attachments/assets/383b5e8f-a407-4dce-b55d-817a5d2fa881" width="300" height="200" align="right"/>
 
 
 ## Expected benefits
