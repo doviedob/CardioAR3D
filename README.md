@@ -70,7 +70,7 @@ Additionally, two inference results can be seen below:
 
 ## Document
 
-The complete formal document of the development of this academic internship project is available in the [public repository](https://bibliotecadigital.udea.edu.co/handle/10495/13400) of the University of Antioquia.
+The complete formal document of the development of this academic internship project is available in the [public repository](https://bibliotecadigital.udea.edu.co/handle/10495/13400) of the University of Antioquia with the name [***«CardioAR3D: Tomografía cardiaca 3D mejorada con realidad aumentada»***](https://bibliotecadigital.udea.edu.co/handle/10495/13400).
 
 ## Acknowledgments
 
