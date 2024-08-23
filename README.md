@@ -76,7 +76,7 @@ The complete formal document of the development of this academic internship proj
 
 This project uses [MONAI Label](https://github.com/Project-MONAI/MONAILabel), an open source medical image labeling platform. If you use this software in your research, please cite the following article:
 
-*Diaz-Pinto, A., Alle, S., Ihsani, A., et al. (2022). MONAI Label: A framework for AI-assisted Interactive Labeling of 3D Medical Images. arXiv e-prints. [arXiv:2203.12362](https://arxiv.org/pdf/2203.12362.pdf)*
+`Diaz-Pinto, A., Alle, S., Ihsani, A., et al. (2022). MONAI Label: A framework for AI-assisted Interactive Labeling of 3D Medical Images. arXiv e-prints. [arXiv:2203.12362](https://arxiv.org/pdf/2203.12362.pdf)`
 
 or use the BibTeX below:
 
