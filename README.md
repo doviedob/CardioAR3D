@@ -68,3 +68,24 @@ Additionally, two inference results can be seen below:
 ## Document
 
 The complete formal document of the development of this academic internship project is available in the public repository of the University of Antioquia.
+
+## Acknowledgments
+
+This project uses [MONAI Label](https://github.com/Project-MONAI/MONAILabel), an open source medical image labeling platform. If you use this software in your research, please cite the following article:
+
+Diaz-Pinto, A., Alle, S., Ihsani, A., et al. (2022). MONAI Label: A framework for AI-assisted Interactive Labeling of 3D Medical Images. arXiv e-prints. [arXiv:2203.12362](https://arxiv.org/pdf/2203.12362.pdf)
+
+or use the BibTeX below:
+
+```
+@article{DiazPinto2022monailabel,
+   author = {Diaz-Pinto, Andres and Alle, Sachidanand and Ihsani, Alvin and Asad, Muhammad and
+            Nath, Vishwesh and P{\'e}rez-Garc{\'\i}a, Fernando and Mehta, Pritesh and
+            Li, Wenqi and Roth, Holger R. and Vercauteren, Tom and Xu, Daguang and
+            Dogra, Prerna and Ourselin, Sebastien and Feng, Andrew and Cardoso, M. Jorge},
+    title = {{MONAI Label: A framework for AI-assisted Interactive Labeling of 3D Medical Images}},
+  journal = {arXiv e-prints},
+     year = 2022,
+     url  = {https://arxiv.org/pdf/2203.12362.pdf}
+}
+```
