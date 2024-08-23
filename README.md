@@ -1,8 +1,8 @@
 # CardioAR3D
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <img src="https://github.com/doviedob/CardioAR3D/blob/main/Images/facultad%20de%20ingenieria.png" width="450" height="150" alt="UdeA">
-  <img src="https://github.com/doviedob/CardioAR3D/blob/1c0741bccea0d52682b569b8c40b8656d9dd0d7c/Images/ClinicaCardioVID.png" width="450" height="150" alt="CardioVID">
+  <img src="https://github.com/doviedob/CardioAR3D/blob/main/Images/facultad%20de%20ingenieria.png" width="350" height="150" alt="UdeA">
+  <img src="https://github.com/doviedob/CardioAR3D/blob/1c0741bccea0d52682b569b8c40b8656d9dd0d7c/Images/ClinicaCardioVID.png" width="350" height="150" alt="CardioVID">
 </div>
 
 Internship project from Universidad de Antioquia for developed a 3D reconstruction process in pediatric patients with congenital heart disease.
