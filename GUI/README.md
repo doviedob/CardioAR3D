@@ -49,4 +49,4 @@ You can modify the MONAI Label start command in the `start_server` method to fit
 Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you want to contribute.
 
 ## License:
-[Insert your chosen license here]
+Licensed under the Apache License, Version 2.0. See more details in [License file](https://github.com/doviedob/CardioAR3D/blob/main/LICENSE)
