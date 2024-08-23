@@ -52,7 +52,7 @@ The next image explain how there was the wrokflow for develop the project.
 
 The performance of the trained model and the complete workflow as designed can be seen with a real case in the following video:
 
-https://github.com/user-attachments/assets/20eacfd9-8d51-4657-ab15-105aa07aeb42
+https://github.com/user-attachments/assets/68bf4563-3b9e-4968-aa4f-706311e7e5ad
 
 Additionally, two inference results can be seen below:
 
