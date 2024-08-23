@@ -45,6 +45,7 @@ The next image explain how there was the wrokflow for develop the project.
 - 3D Slicer version 5.0 or later.
 - 3D Slicer MONAI Label Plugin. (install step [here](https://docs.monai.io/projects/label/en/latest/quickstart.html#install-monai-label-plugin-in-3d-slicer))
 - python 3.9
+- CUDA Toolkit
 - Dataset
 - Stable internet connection
 
