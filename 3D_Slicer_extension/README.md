@@ -26,7 +26,7 @@ SimplifiedMONAILabel is a streamlined extension for 3D Slicer that integrates MO
 
 1. Launch 3D Slicer and load your medical image
 2. Open the SimplifiedMONAILabel module. Found it in "Segmentation" 
-3. Connect to a MONAI Label server
+3. Connect to a MONAI Label server. You can use the following [guides](https://github.com/doviedob/CardioAR3D/blob/6790ebee79949a4466d8ee2db891c6ac7fb14708/Guidelines/README.md)
 4. Select a segmentation model
 5. Run the segmentation
 6. View and edit results as needed
