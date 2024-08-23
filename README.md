@@ -16,6 +16,8 @@ Internship project from Universidad de Antioquia for developed a 3D reconstructi
 - [Requirements](#requirements)
 - [Results](#results)
 - [Expected benefits](#expected-benefits)
+- [Document](#document)
+- [Acknowledgments](#acknowledgments)
 
 ## Problematic
 
