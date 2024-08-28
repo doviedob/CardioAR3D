@@ -7,6 +7,7 @@
 
 Internship project of the Bioengineering career of the University of Antioquia for developed a 3D reconstruction process in pediatric patients with congenital heart disease. This application is based on the radiology [MONAI sample app](https://github.com/Project-MONAI/MONAILabel/tree/main/sample-apps/radiology) and was modified for the segmentation for main anatomy of heart on CT Scans.
 
+<img src="https://github.com/user-attachments/assets/ca0957dc-20a2-4419-92b5-7bfdff1e7293" width="400" height="300" style="float: left;"/> <img src="https://github.com/user-attachments/assets/383b5e8f-a407-4dce-b55d-817a5d2fa881" width="400" height="300" align="right"/>
 
 ### Table of Contents
 - [Problematic](#problematic)
@@ -56,11 +57,6 @@ The next image explain how there was the wrokflow for develop the project.
 The performance of the trained model and the complete workflow as designed can be seen with a real case in the following video:
 
 https://github.com/user-attachments/assets/68bf4563-3b9e-4968-aa4f-706311e7e5ad
-
-Additionally, two inference results can be seen below:
-
-<img src="https://github.com/user-attachments/assets/ca0957dc-20a2-4419-92b5-7bfdff1e7293" width="400" height="300" style="float: left;"/> <img src="https://github.com/user-attachments/assets/383b5e8f-a407-4dce-b55d-817a5d2fa881" width="400" height="300" align="right"/>
-
 
 ## Expected benefits
 
