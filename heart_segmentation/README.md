@@ -80,16 +80,13 @@ To use this model, when cloning this repository move the files into this folder 
 apps
 └───radiology
     └─── lib
-        └─── activelearning
-        └─── configs
-             └─── segmentation_heart.py
-        └─── infers
-        └─── trainers
-        └─── transforms
+         └─── activelearning
+         └─── configs
+              └─── segmentation_heart.py
+         └─── infers
+         └─── trainers
+         └─── transforms
     └─── model
          └─── segmentation_heart.pt
 ```
-
-## References
-
 
