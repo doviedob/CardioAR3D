@@ -4,7 +4,7 @@
 The model was trained from scratch for seven segments following the instruction from [MONAI Label tutorial](https://www.youtube.com/watch?v=3HTh2dqZqew)
 
 ### Data
-The data was provided from internar using only
+The data used in this project are private and belong to the CardioVID clinic. Instead, it is possible to use public CT data such as those found at [ImageCHD: A 3D Computed Tomography Image Dataset for Classification of Congenital Heart Disease](https://www.kaggle.com/datasets/xiaoweixumedicalai/imagechd)
 
 ### Input
 
