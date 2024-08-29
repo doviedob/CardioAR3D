@@ -72,6 +72,23 @@ Then, go to ***http://[PUBLIC_IPV4_EC2]:8000***
 ### Validation Mean Dice
 ![Val_Mean_Dice_Tensorboard](https://github.com/user-attachments/assets/68b11743-834c-4baa-9244-d53098ca3e83)
 
+## Considerations
+
+To use this model, when cloning this repository move the files into this folder following the following structure:
+
+```
+apps
+└───radiology
+    └─── lib
+        └─── activelearning
+        └─── configs
+             └─── segmentation_heart.py
+        └─── infers
+        └─── trainers
+        └─── transforms
+    └─── model
+         └─── segmentation_heart.pt
+```
 
 ## References
 
