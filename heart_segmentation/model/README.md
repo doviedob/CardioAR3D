@@ -1,7 +1,7 @@
-## Descargar archivos grandes
+## Download large files
 
-Algunos archivos grandes necesarios para este proyecto no están incluidos directamente en el repositorio. Para descargarlos:
+The model file needed for this project are not included directly in the repository. To download them:
 
-1. Asegúrate de tener Python instalado.
-2. Instala las dependencias: `pip install -r requirements.txt`
-3. Ejecuta el script: `python download_large_files.py`
+1. Make sure you have Python installed.
+2. Install the dependencies: `pip install -r requirements.txt`
+3. Run the script: `python download_large_files.py`
