@@ -75,8 +75,4 @@ Then, go to ***http://[PUBLIC_IPV4_EC2]:8000***
 
 ## References
 
-aa
 
-## License
-
-bb
