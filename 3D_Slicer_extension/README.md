@@ -2,7 +2,7 @@
 
 ## Overview
 
-SimplifiedMONAILabel is a streamlined extension for 3D Slicer that integrates MONAI Label functionality, making it easier for users to leverage machine learning models for medical image segmentation. This extension simplifies the process of loading, segmenting, and interacting with medical images using pre-trained MONAI Label models using EC2 instances from AWS.
+SimplifiedMONAILabel is a streamlined extension for 3D Slicer that integrates MONAI Label functionality, making it easier for users to leverage machine learning models for medical image segmentation focused only on **inference**. This extension simplifies the process of loading, segmenting, and interacting with medical images using pre-trained MONAI Label models using EC2 instances from AWS.
 
 ![image](https://github.com/user-attachments/assets/908e6f77-4b3b-4fc9-ad21-79f46786a0b2)
 
