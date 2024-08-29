@@ -188,3 +188,7 @@ websocket-client==1.5.1
 Werkzeug==2.2.2
 wincertstore==0.2
 zipp==3.11.0
+
+pyyaml
+requests
+tqdm
