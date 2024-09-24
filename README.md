@@ -88,3 +88,20 @@ or use the BibTeX below:
      url  = {https://arxiv.org/pdf/2203.12362.pdf}
 }
 ```
+## Cite
+To directly cite this project you can use the following citation in IEEE (2020):
+```[1] D. Oviedo Barreto, “CardioAR3D: Tomografía cardiaca 3D mejorada con realidad aumentada”, Trabajo de grado profesional, Bioingeniería, Universidad de Antioquia, Medellín, Antioquia, Colombia, 2024.```
+
+or use the BibTeX below:
+
+```
+@mastersthesis{OviedoBarreto2024,
+  title = {CardioAR3D: Tomografía cardiaca 3D mejorada con realidad aumentada},
+  author = {Oviedo Barreto, D.},
+  school = {Universidad de Antioquia},
+  address = {Medellín, Antioquia, Colombia},
+  year = {2024},
+  degree = {Trabajo de grado profesional},
+  department = {Bioingeniería}
+}
+```
