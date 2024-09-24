@@ -90,6 +90,7 @@ or use the BibTeX below:
 ```
 ## Cite
 To directly cite this project you can use the following citation in IEEE (2020):
+
 ```[1] D. Oviedo Barreto, “CardioAR3D: Tomografía cardiaca 3D mejorada con realidad aumentada”, Trabajo de grado profesional, Bioingeniería, Universidad de Antioquia, Medellín, Antioquia, Colombia, 2024.```
 
 or use the BibTeX below:
